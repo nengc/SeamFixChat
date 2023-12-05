@@ -94,7 +94,7 @@ public class MainActivity extends AppCompatActivity {
                                         //send broadcast to other users
                                         publishUserMessage( "User " + "\'" +  sharedPrefs.getUsername().substring(0, sharedPrefs.getUsername().lastIndexOf("_")) + "\'" + " has joined the chat", "alert", mqttAndroidClient);
                                         sharedPrefs.setIsNewJoineeBroadcasted(true);
-                                        sharedPrefs.saveTopic("testtopic/"+topic.getText().toString());
+                                        sharedPrefs.saveTopic(topic.getText().toString());
                                         progress.setVisibility(View.GONE);
                                     }
 
