@@ -15,7 +15,7 @@ import java.util.TimeZone;
 
 public class Util {
 
-    public static final String CHAT_SERVER = "tcp://broker.hivemq.com:1883";
+    public static final String CHAT_SERVER = "tcp://192.168.1.244:1883";
 
 
 
